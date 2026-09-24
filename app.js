@@ -152,9 +152,23 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch((error) => {
           btn.innerHTML = origText;
           btn.disabled = false;
+
           console.error("Erreur EmailJS:", error);
+
+          alert(
+            "❌ ERREUR D'ENVOI DU MAIL\n\n" +
+              "Code de l'erreur : " +
+              (error.status || "Inconnu") +
+              "\n" +
+              "Message : " +
+              (error.text || error.message || "Erreur inconnue") +
+              "\n\n" +
+              "Détails techniques :\n" +
+              JSON.stringify(error, null, 2),
+          );
+
           showToast(
-            "Une erreur est survenue lors de l\u2019envoi. Merci de réessayer ou de nous contacter par téléphone.",
+            "Une erreur est survenue lors de l’envoi. Merci de réessayer.",
           );
         });
     });
