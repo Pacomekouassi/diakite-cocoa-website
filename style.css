@@ -451,10 +451,56 @@ h6 {
   gap: 2rem;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 640px) {
+  .pill-badge {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.7rem;
+    gap: 0.35rem;
+    white-space: nowrap;
+  }
+  .pill-badge .dot-pulse-orange {
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 992px) {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
+}
+
+@media (max-width: 640px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+.stat-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Centrage des boutons sur tablette et mobile */
+@media (max-width: 992px) {
+  .hero-actions {
+    justify-content: center;
+    text-align: center;
+  }
+  .mt-2rem,
+  .btn-submit-pad {
+    text-align: center;
+  }
+  .footer-links .btn-footer-cta {
+    display: inline-flex;
+  }
+}
+.card-action-mt-auto {
+  text-align: center;
 }
 .stat-value {
   font-family: var(--font-display);
