@@ -32,6 +32,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -53,13 +57,26 @@
     <div class="top-strip">
       <div class="container top-strip-inner">
         <div class="top-strip-contacts">
-          <span>📍 Abidjan, Abobo PK 18, Côte d'Ivoire</span>
-          <span class="top-strip-divider">|</span>
-          <a href="mailto:contact@diakitecocoap.com"
-            >✉️ contact@diakitecocoap.com</a
+          <span
+            ><i
+              class="fa-sharp fa-solid fa-location-pin"
+              style="color: #e76f1f"
+            ></i>
+            Abidjan, Abobo PK 18, Côte d'Ivoire</span
           >
           <span class="top-strip-divider">|</span>
-          <a href="tel:+2250748882797">📞 (+225) 07 48 88 27 97</a>
+          <a href="mailto:contact@diakitecocoap.com"
+            ><i class="fa-regular fa-envelope" style="color: #e76f1f"></i>
+            contact@diakitecocoap.com</a
+          >
+          <span class="top-strip-divider">|</span>
+          <a href="tel:+2250748882797">
+            <i
+              class="fa-notdog-duo fa-solid fa-phone"
+              style="color: #e76f1f"
+            ></i>
+            (+225) 07 48 88 27 97</a
+          >
         </div>
         <div class="top-strip-badge">
           <span class="text-orange-bold">★ Agro-industrie ivoirienne</span>
@@ -70,142 +87,13 @@
     <!-- Main Navigation Header -->
     <header class="main-header">
       <div class="container nav-container">
-        <!-- SVG Brand Logo -->
+        <!-- Brand Logo -->
         <a href="#home" data-nav-target="home" class="brand-logo-link">
-          <div class="brand-logo-row">
-            <svg viewBox="0 0 90 120" class="brand-logo-svg">
-              <path
-                d="M 45 10 C 45 4, 52 2, 54 0 C 50 4, 48 8, 45 10 Z"
-                fill="#3E2312"
-              />
-              <path
-                d="M 28 14 C 20 28, 16 52, 16 75 C 16 100, 26 114, 34 118 C 30 102, 30 30, 28 14 Z"
-                fill="#3E2312"
-              />
-              <path
-                d="M 32 14 C 36 12, 42 16, 52 24 C 68 38, 76 60, 76 80 C 76 98, 66 112, 50 118 C 44 114, 40 106, 36 94"
-                fill="none"
-                stroke="#3E2312"
-                stroke-width="8"
-                stroke-linecap="round"
-              />
-              <rect
-                x="28"
-                y="24"
-                width="22"
-                height="84"
-                rx="10"
-                fill="#FBF5EA"
-                stroke="#4A2D1B"
-                stroke-width="2.5"
-              />
-              <g fill="#D89E3A" stroke="#784212" stroke-width="1.2">
-                <ellipse
-                  cx="34"
-                  cy="36"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(-15 34 36)"
-                />
-                <ellipse
-                  cx="34"
-                  cy="46"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(-15 34 46)"
-                />
-                <ellipse
-                  cx="34"
-                  cy="56"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(-15 34 56)"
-                />
-                <ellipse
-                  cx="34"
-                  cy="66"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(-15 34 66)"
-                />
-                <ellipse
-                  cx="34"
-                  cy="76"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(-15 34 76)"
-                />
-                <ellipse
-                  cx="34"
-                  cy="86"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(-15 34 86)"
-                />
-                <ellipse
-                  cx="43"
-                  cy="36"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(15 43 36)"
-                />
-                <ellipse
-                  cx="43"
-                  cy="46"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(15 43 46)"
-                />
-                <ellipse
-                  cx="43"
-                  cy="56"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(15 43 56)"
-                />
-                <ellipse
-                  cx="43"
-                  cy="66"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(15 43 66)"
-                />
-                <ellipse
-                  cx="43"
-                  cy="76"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(15 43 76)"
-                />
-                <ellipse
-                  cx="43"
-                  cy="86"
-                  rx="4.5"
-                  ry="3"
-                  transform="rotate(15 43 86)"
-                />
-              </g>
-              <path
-                d="M 52 30 Q 72 65 52 108"
-                fill="none"
-                stroke="#3E2312"
-                stroke-width="3.5"
-                stroke-linecap="round"
-              />
-            </svg>
-            <div class="brand-logo-text-col">
-              <span class="brand-logo-title">IAKITE</span>
-              <span class="brand-logo-subtitle">COCOA PRODUCTS</span>
-            </div>
-          </div>
-          <div class="brand-logo-flag">
-            <div class="flag-orange"></div>
-            <div class="flag-space"></div>
-            <div class="flag-green"></div>
-          </div>
-          <span class="brand-logo-tagline"
-            >Un acteur clé dans une filière en pleine croissance</span
-          >
+          <img
+            src="images/logo.png"
+            alt="Diakité Cocoa Products"
+            class="brand-logo-image"
+          />
         </a>
 
         <!-- Desktop Nav -->
@@ -300,7 +188,7 @@
                 <a
                   href="#products"
                   data-nav-target="products"
-                  class="btn btn-outline-white"
+                  class="btn btn-primary btn-outline-white"
                   class="btn-hero-pad"
                 >
                   <span>Découvrir notre catalogue</span>
@@ -1341,8 +1229,26 @@
 
           <div>
             <h4 class="footer-title">Contact Rapide</h4>
-            <p class="footer-phone">📞 (+225) 07 48 88 27 97</p>
-            <p class="footer-email">✉️ contact@diakitecocoap.com</p>
+            <p class="footer-phone">
+              <a
+                href="tel:+225 0748882797"
+                style="color: #ffffff; text-decoration: none"
+              >
+                <i
+                  class="fa-notdog-duo fa-solid fa-phone"
+                  style="color: #ffffff"
+                ></i>
+                (+225) 07 48 88 27 97</a
+              >
+            </p>
+            <p class="footer-email">
+              <a
+                href="mailto:contact@diakitecocoap.com"
+                style="color: #ffffff; text-decoration: none"
+                ><i class="fa-regular fa-envelope" style="color: #ffffff"></i>
+                contact@diakitecocoap.com</a
+              >
+            </p>
             <a
               href="#contact"
               data-nav-target="contact"
