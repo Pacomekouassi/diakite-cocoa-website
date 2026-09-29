@@ -196,7 +196,7 @@ h6 {
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  padding: 0.85rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 .brand-logo-link {
   margin-right: auto;
@@ -952,10 +952,9 @@ h6 {
 }
 
 .brand-logo-imag {
+  height: 48px;
+  width: auto;
   display: block;
-  width: 230px;
-  height: auto;
-  max-height: 90px;
   object-fit: contain;
 }
 
